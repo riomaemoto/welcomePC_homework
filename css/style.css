@@ -148,6 +148,7 @@ aside > strong {
 .welcome {
 	background-image: url(https://cdn.audleytravel.com/1050/749/79/1316347-beach-in-okinawa.webp);
 	height: 700px;
+	width: 100%;
 	color: #fff;
 	text-align: center;
 	display: flex;
@@ -253,8 +254,21 @@ footer .name2 {
 
 
 
+/*スマフォ対応*/
+@media screen and (max-width: 480px){
+
+	body {
+		min-width: 375px;
+	}
 
 
+.photo {
+	display: flex;
+	flex-direction: column;
+}
+
+
+}
 
 
 
